@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+		<meta charset="utf-8">
+		<title>Horizon</title>
+		<link rel="icon" href="/static/images/fivo.ico">
+		<link rel="shortcut icon" href="/static/images/fivo.ico" />
+		<link rel="stylesheet" href="/static/css/style.css">
+		<link rel="stylesheet" href="/static/css/camera.css">
+		<link rel="stylesheet" href="/static/css/form.css">
+		<script src="/static/js/jquery.js"></script>
+		<script src="/static/js/jquery-migrate-1.1.1.js"></script>
+		<script src="/static/js/superfish.js"></script>
+		<script src="/static/js/forms.js"></script>
+		<script src="/static/js/jquery.ui.totop.js"></script>
+		<script src="/static/js/jquery.equalheights.js"></script>
+		<script src="/static/js/jquery.easing.1.3.js"></script>
+		<script src="/static/js/jquery.ui.totop.js"></script>
+		<script src="/static/js/tms-0.4.1.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.slider_wrapper')._TMS({
+					show:0,
+					pauseOnHover:false,
+					prevBu:'.prev',
+					nextBu:'.next',
+					playBu:false,
+					duration:800,
+					preset:'fade',
+					pagination:true,//'.pagination',true,'<ul></ul>'
+					pagNums:false,
+					slideshow:8000,
+					numStatus:false,
+					banners: 'fade',
+					waitBannerAnimation:false,
+					progressBar:false
+				});
+			});
+			$(document).ready(function(){
+				!function(){
+			var map=[]
+			 ,names=[]
+			 ,win=$(window)
+			 ,header=$('header')
+			 ,currClass
+			$('.content').each(function(n){
+			 map[n]=this.offsetTop
+			 names[n]=$(this).attr('id')
+			})
+			win
+			 .on('scroll',function(){
+				var i=0
+				while(map[i++]<=win.scrollTop());
+				if(currClass!==names[i-2])
+				currClass=names[i-2]
+				header.removeAttr("class").addClass(names[i-2])
+			 })
+			}(); });
+					function goToByScroll(id){
+				$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+				}
+				$(document).ready(function(){
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+		</script>
+		
+	</head>
+	<body class="">
+<!--==============================header=================================-->
+		<header class="page1">
+			<div class="container_12">
+				<div class="grid_12">
+					<h1><a href="http://www.bcrec.ac.in/" onClick="goToByScroll('page1'); return true;"> <img src="/static/images/logo/logo111.png"alt="Horizon"></a></h1>
+		             
+					<div class="menu_block">
+						<nav class="">
+							<ul class="sf-menu">
+								<li class="current men"><a onClick="goToByScroll('page1'); return false;" href="#">Home </a> <strong class="hover"></strong></li>
+								<li class="men1"><a onClick="goToByScroll('page2'); return false;" href="#">Events</a><strong class="hover"></strong></li>
+								<li class=" men2"><a onClick="goToByScroll('page3'); return false;" href="#">workshops</a> <strong class="hover"></strong></li>
+								<li class=" men4"><a onClick="goToByScroll('page5'); return false;" href="#">contacts</a> <strong class="hover"></strong></li>
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+					</br></br>
+					<h6>Mail us on:</h6></br>
+					<h9>bcrec.horizon2k15@gmail.com<div id="fb-root"></div></h9>
+					</br></br></br><h4>Horizon 2k15 is the 12th annual National level Techno Management Festival  </br>
+					<b>Dr. B. C. Roy Engineering College Durgapur.</b></h4>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</header>
+<!--=======content================================-->
+		<div id="page1" class="content" >
+			<div class="ic"></div>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slider_wrapper">
+						<ul class="items">
+							<li>
+								<img src="/static/images/spacer.gif" alt="">
+								<div class="caption banner">
+									<h2><a onClick="goToByScroll('page3'); return false;" >Horizon 2k15 is coming soon...</a></h2>
+								</div>
+							</li>
+							<li>
+								<img src="/static/images/spacer.gif" alt="">
+								<div class="caption banner">
+									<h2><a onClick="goToByScroll('page3'); return false;" >From 26-02-2015 to 28-02-2015...</a></h2>
+								</div>
+							</li>
+							<li>
+								<img src="/static/images/spacer.gif" alt="">
+								<div class="caption banner">
+									<h2><a onClick="goToByScroll('page3'); return false;" >Interesting events and workshops...</a></h2>
+								</div>
+							</li>
+							<li>
+								<img src="/static/images/spacer.gif" alt="">
+								<div class="caption banner">
+									<h2><a onClick="goToByScroll('page3'); return false;" >Amazing and exciting prizes with cash Money!</a></h2>
+								</div>
+							</li>
+						</ul>
+					</div>
+					</br>
+					
+						<a href="https://www.facebook.com/hrzn2k15"><img src="/static/images/socials.png" alt=""></a>
+						
+					</img>
+				</div>
+			</div>
+		</div>
+		<div id="page2" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+						<h3><a onClick="goToByScroll('page3'); return false;" >Events For Students</a></h3>
+						<div class="text1">
+							<h5>There are events for every department and some Centralised and Gaming events are also there which is for every one!
+							</h5></div>
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight">
+						
+						<div class="text1"><a >For EveryOne</a></div></br>IGNITIA (GK Quiz)</br>
+						FLASH MOB</br>CINEKSHETRA</br>#include&lt;Wannacode.h&gt;
+						</br>WEB DEVELOPMENT</br>TEE-ZINE (t-shirt painting)</br>SHOW OFF (Poster making)</br>BIZCOGNITO (business plan)</br>XPOSED (Photography)
+						</br>ROBOTICS</br>ANDROID APP DEVELOPMENT</br>PEN IT DOWN
+						
+						
+						
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight">
+						
+						<div class="text1"><a >For IT / CSE</a></div></br> THE LINQUEST (Computer quiz)
+						</br></br>HACK-A-SAURUS (Online coding)</br>
+						
+						
+						
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight">
+						
+						<div class="text1"><a >For ECE</a></div></br>WIZZCOMBIZ (ECE quiz)
+                        </br></br>JUNKTRONIX (from scrap to gold)</br></br>FOX-TRADE (the circuit business) 						
+						
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight">
+						
+						<div class="text1"><a >For EIE</a></div></br>CATECHIZATION (EIE quiz)</br></br>CHECKMATE (8085 programming)
+						</br></br>INNOVACION (model presentation)
+							
+						
+					</div>
+				</div>
+				</br>
+				<div class="grid_3">
+					<div class="box maxheight">
+					
+						<div class="text1"><a >For EE</a></div></br>ELECTROBUZZ (Electrical quiz)
+                       </br> </br>TRACK-N-CRACK (circuit debugging)						
+					
+						
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight">
+						
+						<div class="text1"><a >For ME</a></div></br>MECHTRIX (Mechanical quiz) 
+						
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight">
+						
+						<div class="text1"><a >For CE</a></div></br>Coming soon... 
+						
+						
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight">
+						
+						<div class="text1"><a >For Gaming Events</a></div></br>
+						COUNTER STRIKE 1.6</br></br>NFS MOST WANTED</br></br>FIFA 11</br></br>ANGRY BIRDS
+						</br></br>TEKKEN
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="page3" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+						<h3><a onClick="goToByScroll('page3'); return false;" >Workshops</a></h3>
+						<div class="text1">
+							<h5>There are four workshops which will be organised before our technical fest so be prepared for that!
+							</h5></div>
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1">
+						<img src="/static/images/workshops/3.png" alt="">
+						<div class="text1"><a >Android workshop</a></div>This workshop is for everyone who likes coding and wants to develop his own application.
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1">
+						<img src="/static/images/workshops/2.jpg" alt="">
+						<div class="text1"><a >Robotics workshop</a></div>This workshop is for everyone who wants to design his own customised robot.
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1">
+						<img src="/static/images/workshops/4.jpg" alt="">
+						<div class="text1"><a >Web Development workshop</a></div>This workshop is for everyone who thinks to design his own web page.
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1">
+						<img src="/static/images/workshops/1.jpg" alt="">
+						<div class="text1"><a >Autocad and Engineering Drawing workshop</a></div>This workshop belongs to Mechanical and Civil department students.
+					</div>
+				</div>
+			</div>
+		</div>
+		    <div id="page5" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+						<h3><a onClick="goToByScroll('page3'); return false;" >Get in Touch</a></h3>
+						<div class="text1">
+							For any queries related to this, Please contact our organising members.
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="map">
+					<div class="grid_3">
+						<div class="text1">IT&nbsp;/&nbsp;CSE</div>
+						
+							<dl>
+								<span>Satyajeet Kumar&nbsp;&nbsp;&nbsp;&nbsp;+91-8293538913</span><br>
+								<span>Apoorv Ashutosh&nbsp;&nbsp;&nbsp;+91-9563494117</span><br>
+								<span>Abhishek Kumar&nbsp;&nbsp;&nbsp;&nbsp;+91-7679518800</span><br>
+							</dl>
+							</div>
+					
+					<div class="grid_5 prefix_1">
+						<div class="text1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ECE&nbsp;/&nbsp;EIE&nbsp;/&nbsp;EE</div>
+						<dl>
+								<span>Farhad Khan&nbsp;&nbsp;&nbsp;&nbsp;+91-7679419773</span><br>
+								<span>Pritam Das&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91-8906177350</span><br>
+								<span>Azfar Karim&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91-9614318495</span><br>
+								<span>Sourojit Dhua&nbsp;&nbsp;&nbsp;+91-9733529526</span><br>
+								<span>Kumar Aryan&nbsp;&nbsp;&nbsp;+91-9749272743</span><br>
+								<span>Ketan Ghosh&nbsp;&nbsp;&nbsp;+91-9932944879</span><br>
+						
+							</dl>
+					</div>
+					<div class="grid_3">
+						<div class="text1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ME&nbsp;/&nbsp;CE</div>
+						<dl>
+								<span>Akhilesh Kanaujia&nbsp;&nbsp;&nbsp;+91-7872284972</span><br>
+								<span>Avirup Karmakar&nbsp;&nbsp;&nbsp;&nbsp;+91-8900083477</span><br>
+								<span>Arup Kuila&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;+91-8101336745</span><br>
+								<span>Priyodarshi Mallick&nbsp;&nbsp;+91-9732296002</span><br>
+							</dl>
+						
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="copy">
+						<a onClick="goToByScroll('page1'); return false;" href="#"><img src="/static/images/logo/logo111.png" alt=""></a><br> Website designed by &nbsp; Satyajeet Kumar &nbsp; & &nbsp; Abhiskek Kumar</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</footer>
+		<script>
+		$(document).ready(function(){
+			$(this).scrollTop(0);
+		});
+		</script>
+		
+		<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+	</body>
+
+</html>
